@@ -13,24 +13,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap" rel="stylesheet">
-    
+
     <title>Freelance</title>
     <link rel="icon" type="image/png" href="assets\images\logo.png" />
 </head>
 
 <body bgcolor="#F7EDE8">
-        <header >
-            <nav>
-                <a href="" class="nav__logo">
-                    <img src="assets/images/logo.png" alt="" class="logo">
-                </a>
-                <ul class="left_nav">
-                    <li>
-                        <a style="font-weight: 700;" href="" class="left_nav-link">
-                            Главная
-                        </a>
-                    </li>
-    
+    <header>
+        <nav>
+            <a href="" class="nav__logo">
+                <img src="assets/images/logo.png" alt="" class="logo">
+            </a>
+            <ul class="left_nav">
+                <li>
+                    <a style="font-weight: 700;" href="" class="left_nav-link">
+                        Главная
+                    </a>
+                </li>
+
                 <!--
                     <li>
                         <a href="" class="left_nav-link">
@@ -43,40 +43,83 @@
                         </a>
                     </li>
                 -->
-                </ul>
-                <ul class="right_nav">
-                    <li>
-                        <a href="" class="bell">
-                            <img src="assets/images/bell.svg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="bell">
-                            <img src="assets/images/profile.png    " alt="">
-                    </li>
-                    <li>
-                        <a href="" class="leave">
-                            Выход
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-    
-    
-        <main class="main">
-            <h2 class="main__title">
-                Фриланс биржа<br>
-                <span>Freelance</span>
-            </h2>
-            <p class="main__descr">
-                We cover all kinds of categories and <br>
-                a weekly special guest.
-            </p>
-            <a href="" class="blackButton">Начать</a>
-            <a href="" class="whiteButton">История транзакций</a>
-        </main>
-    </div>
+            </ul>
+            <ul class="right_nav">
+                <li>
+                    <a href="" class="bell">
+                        <img src="assets/images/bell.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="bell">
+                        <img src="assets/images/profile.png    " alt="">
+                </li>
+                <li>
+                    <a href="" class="leave">
+                        Выход
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="main">
+        <h2 class="main__title">
+            Фриланс биржа<br>
+            <span>Freelance</span>
+        </h2>
+        <p class="main__descr">
+            We cover all kinds of categories and <br>
+            a weekly special guest.
+        </p>
+
+
+        <a href="" class="blackButton">начать</a>
+        <a href="" class="whiteButton">История транзакций</a>
+        <form method="post" class="postInputForm">
+            <label>
+                Название заказа
+                <input name="submitted-name" autocomplete="name">
+            </label>
+        </form>
+
+        <form method="post" class="postInputForm">
+            <label for="services">Вид услуги:</label>
+            <select id="services" name="services">
+                <img src="assets/images/select_arrow.png" alt="" class="logo" style="width:45px; height:42px;">
+                
+                <option value="mobile">Мобильные приложения</option>
+                <option value="games">Создание видеоигр</option>
+                <option value="defend">Защита систем от кибератак</option>
+                <option value="website_layout">Верстка сайта</option>
+
+                <option value="model">Создание макета</option>
+                <option value="motion">Motion-дизайн</option>
+                <option value="ux_ui">UX/UI-дизайн</option>
+                <option value="interior">Дизайн интерьера</option>
+            </select>
+
+
+            
+        </form>
+
+        <form method="post" class="postInputForm">
+            <label>
+                Описание заказа
+                <input name="submitted-name" autocomplete="name">
+            </label>
+        </form>
+
+        <form method="post" class="postInputForm">
+            <label>
+                Стоимость
+                <input name="submitted-name" autocomplete="name">
+            </label>
+        </form>
+
+
+    </main>
 </body>
 
 </html>

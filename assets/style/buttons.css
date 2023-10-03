@@ -16,13 +16,15 @@
 
     padding: 20.375px 36.675px;
     width: 50px;
-    margin:40px auto 0;
+    margin: 40px auto 0;
 
     display: block;
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    text-align: center;
 }
+
 .whiteButton {
     /* Стили для надписи */
     color: var(--Black, #000);
@@ -39,10 +41,62 @@
 
     padding: 20px 36px;
     width: 174px;
-    margin:40px auto 0;
+    margin: 40px auto 0;
 
     display: block;
     justify-content: center;
     align-items: center;
     text-decoration: none;
+}
+
+
+.postInputForm {
+    /* Стили для надписи */
+    font-family: Montserrat Alternates;
+    font-size: 14.263px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+
+    /* Позиционирование напрямую зависит от width и margin*/
+    margin: 0 auto;
+    width: 379.994px;
+    color: var(--Black, #000);
+
+}
+
+.postInputForm input,
+select {
+    /* Стили для надписи */
+    font-family: Montserrat Alternates;
+    font-size: 14.263px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+
+    /* color: var(--Davys-Grey, #4D4D4D);
+    font-family: Montserrat Alternates;
+    font-size: 16.3px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;*/
+
+    /* Стили для самого поля */
+    display: flex;
+    width: 379.994px;
+    padding: 19.356px 265.619px 19.844px 20.375px;
+    align-items: center;
+
+    border-radius: 8.15px;
+    border: 1.528px solid var(--Black, #000);
+    /* border: 1.528px solid var(--Vermillion, #CD4631); color when active*/
+
+    background: #FFF;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.postInputForm select {
+    appearance: none; /* Не разобрался как поставить кастомную стрелочку select_arrow.png */
 }
