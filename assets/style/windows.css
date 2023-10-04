@@ -1,4 +1,7 @@
-.create_order {
+.window {
+
+    margin-top: 50px;
+    
     border-radius: 8px;
     border: 2px solid var(--Black, #000);
     background: #FFF;
@@ -7,13 +10,13 @@
 
 }
 
-.create_order img {
+.window img {
     display: block;
     width: 780.362px;
     margin: 25px auto;
 }
 
-.create_order h2 {
+.window h2 {
     color: var(--Black, #000);
     text-align: center;
     font-family: Montserrat Alternates;
@@ -24,16 +27,16 @@
     letter-spacing: -0.733px;
 }
 
-.create_order input,
+.window input,
 select {
     margin-top: 16px;
 }
 
-.create_order label {
+.window label {
     margin-top: 22px;
 }
 
-.create_order .postInputForm {
+.window .postInputForm {
     /* Стили для надписи */
     font-family: Montserrat Alternates;
     font-size: 14.263px;
@@ -47,11 +50,11 @@ select {
     color: var(--Black, #000);
 }
 
-.create_order>div {
+.window>div {
     margin-right: 28px;
 }
 
-.create_order .postInputForm input {
+.window .postInputForm input {
     /* Стили для надписи */
     font-family: Montserrat Alternates;
     font-size: 14.263px;
@@ -84,7 +87,7 @@ select {
     text-decoration: none;
 }
 
-.create_order .postInputForm select {
+.window .postInputForm select {
     /* Стили для надписи */
     font-family: Montserrat Alternates;
     font-size: 14.263px;
@@ -120,7 +123,7 @@ select {
     /* Не разобрался как поставить кастомную стрелочку select_arrow.png */
 }
 
-.create_order .blackButton {
+.window .blackButton {
     /* Стили для надписи */
     color: #FFF;
     font-family: Montserrat Alternates;
@@ -147,7 +150,7 @@ select {
     text-align: center;
 }
 
-.create_order img {
+.window img {
     
     display: block;
     width: 480.362px;

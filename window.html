@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- CSS -->
-  <link rel="stylesheet" href="assets/style/create_order.css">
+  <link rel="stylesheet" href="assets/style/windows.css">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,8 +15,8 @@
 </head>
 
 <body>
-  <header>
-    <div class="create_order">
+  <div class="windows">
+    <div class="create_order window">
       <h2>
         Создать новый заказ
       </h2>
@@ -26,7 +26,7 @@
         <form method="post" class="postInputForm">
           <label>
             Название заказа
-            <input  name="" placeholder="Укажите самое главное о заказе">
+            <input name="" placeholder="Укажите самое главное о заказе">
           </label>
         </form>
 
@@ -53,7 +53,7 @@
         <form method="post" class="postInputForm">
           <label>
             Описание заказа
-            <input name="order-description"placeholder="Расскажите об заказе подробнее">
+            <input name="order-description" placeholder="Расскажите об заказе подробнее">
           </label>
         </form>
 
@@ -71,7 +71,49 @@
       </a>
     </div>
 
-  </header>
+
+
+
+    <div class="input_money window">
+      <h2>
+        Пополнить баланс
+      </h2>
+      <img src="assets\images\registration_line.png">
+
+
+      <form method="post" class="postInputForm">
+        <label>
+
+          <input name="order-cost" type="number" min="0" placeholder="Укажите сумму пополнения в рублях">
+        </label>
+      </form>
+
+      <a href="" class="blackButton">
+        Подтвердить
+      </a>
+
+
+
+    </div>
+
+    <div class="delete_money window">
+      <h2>
+        Пополнить баланс
+      </h2>
+      <img src="assets\images\registration_line.png">
+
+
+      <form method="post" class="postInputForm">
+        <label>
+
+          <input name="order-cost" type="number" min="0" placeholder="Укажите сумму пополнения в рублях">
+        </label>
+      </form>
+
+      <a href="" class="blackButton">
+        Подтвердить
+      </a>
+    </div>
 </body>
 
 </html>
