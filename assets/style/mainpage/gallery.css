@@ -1,0 +1,32 @@
+/* 5 Картинок после кнопки "Начать" */
+.gallery {
+    margin: 70px auto 350px;
+    width: 100%;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.gallery .box {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 300PX;
+
+}
+
+.gallery .box img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 373px;
+    height: 480px;
+
+    object-fit: cover;
+}
+
