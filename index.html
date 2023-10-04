@@ -140,119 +140,89 @@
                 </div>
             </div>
 
-            <div id="registration">
-                <h2>Регистрация</h2>
-                <img src="assets\images\registration_line.png">
+            <div id="registration_block">
+                <div id="login">
+                    <h2>Вход</h2>
+                    <img src="assets\images\registration_line.png">
 
-                <div>
-                    <form method="post" class="postInputForm">
-                        <label for="services">Вид услуги:</label>
-                        <select id="services" name="services">
-                            <img src="assets/images/select_arrow.png" alt="" class="logo"
-                                style="width:45px; height:42px;">
+                    <div>
+                        <form method="post" class="postInputForm">
+                            <label for="services">Выберите роль:</label>
+                            <select id="services" name="services">
+                                <img src="assets/images/select_arrow.png" alt="" class="logo"
+                                    style="width:45px; height:42px;">
 
-                            <option value="mobile">Исполнитель</option>
-                            <option value="games">Заказчик</option>
-                        </select>
-                    </form>
+                                <option value="mobile">Исполнитель</option>
+                                <option value="games">Заказчик</option>
+                            </select>
+                        </form>
 
-                    <form method="post" class="postInputForm">
-                        <div> <label>
-                                Фамилия Имя
-                                <input name="name" autocomplete="name">
-                            </label></div>
-                    </form>
 
-                    <form method="post" class="postInputForm">
-                        <label>
-                            Почта
-                            <input name="email" autocomplete="email">
-                        </label>
-                    </form>
+                        <form method="post" class="postInputForm">
+                            <label>
+                                Почта
+                                <input name="email" autocomplete="email" placeholder="example@example.com">
+                            </label>
+                        </form>
 
-                    <form method="post" class="postInputForm">
-                        <label>
-                            Пароль
-                            <input type="password" autocomplete="new-password">
-                        </label>
-                    </form> -->
+                        <form method="post" class="postInputForm">
+                            <label>
+                                Пароль
+                                <input type="password" autocomplete="new-password" placeholder="Введите пароль">
+                            </label>
+                        </form>
+                    </div>
+
+                    <a href="" class="blackButton">Вход</a>
+                    <a href="" class="whiteButton">
+                        <p>Нет аккаунта?</p>
+                    </a>
+                </div>
+
+
+                <div id="registration">
+                    <h2>Регистрация</h2>
+                    <img src="assets\images\registration_line.png">
+
+                    <div>
+                        <form method="post" class="postInputForm">
+                            <label for="services">Выберите роль:</label>
+                            <select id="services" name="services">
+                                <img src="assets/images/select_arrow.png" alt="" class="logo"
+                                    style="width:45px; height:42px;">
+
+                                <option value="mobile">Исполнитель</option>
+                                <option value="games">Заказчик</option>
+                            </select>
+                        </form>
+
+                        <form method="post" class="postInputForm">
+                            <div> <label>
+                                    Фамилия Имя
+                                    <input name="name" autocomplete="name" placeholder="Иванов Иван">
+                                </label></div>
+                        </form>
+
+                        <form method="post" class="postInputForm">
+                            <label>
+                                Почта
+                                <input name="email" autocomplete="email" placeholder="example@example.com">
+                            </label>
+                        </form>
+
+                        <form method="post" class="postInputForm">
+                            <label>
+                                Пароль
+                                <input type="password" autocomplete="new-password" placeholder="Введите пароль">
+                            </label>
+                        </form>
+                    </div>
+                    <a href="reg.html" class="blackButton">Зарегистрироваться</a>
+                    <a target="_blank" href="reg.html" class="blackButton">СОЗДАТЬ ЗАКАЗ</a>
                 </div>
             </div>
-
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- <a href="" class="whiteButton">История транзакций</a>
-        
-        <form method="post" class="postInputForm">
-            <label>
-                Название заказа
-                <input name="submitted-name" autocomplete="name">
-            </label>
-        </form>
-
-        <form method="post" class="postInputForm">
-            <label for="services">Вид услуги:</label>
-            <select id="services" name="services">
-                <img src="assets/images/select_arrow.png" alt="" class="logo" style="width:45px; height:42px;">
-                
-                <option value="mobile">Мобильные приложения</option>
-                <option value="games">Создание видеоигр</option>
-                <option value="defend">Защита систем от кибератак</option>
-                <option value="html">Верстка сайта</option>
-
-                <option value="model">Создание макета</option>
-                <option value="motion">Motion-дизайн</option>
-                <option value="ux_ui">UX/UI-дизайн</option>
-                <option value="interior">Дизайн интерьера</option>
-            </select>
-
-
-            
-        </form>
-
-        <form method="post" class="postInputForm">
-            <label>
-                Описание заказа
-                <input name="submitted-name" autocomplete="name">
-            </label>
-        </form>
-
-        <form method="post" class="postInputForm">
-            <label>
-                Стоимость
-                <input name="submitted-name" autocomplete="name">
-            </label>
-        </form> -->
 
 
     </main>

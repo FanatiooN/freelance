@@ -1,17 +1,39 @@
-#registration_block {
+.create_order {
+    border-radius: 8px;
+    border: 2px solid var(--Black, #000);
     background: #FFF;
-    padding-bottom: 50px;
+    box-shadow: 10px 10px 0px 0px #000;
+    width: 570px;
+
 }
 
-#registration_block img {
+.create_order img {
     display: block;
     width: 780.362px;
-    
     margin: 25px auto;
 }
 
+.create_order h2 {
+    color: var(--Black, #000);
+    text-align: center;
+    font-family: Montserrat Alternates;
+    font-size: 36.65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 36.65px */
+    letter-spacing: -0.733px;
+}
 
-#registration_block .postInputForm {
+.create_order input,
+select {
+    margin-top: 16px;
+}
+
+.create_order label {
+    margin-top: 22px;
+}
+
+.create_order .postInputForm {
     /* Стили для надписи */
     font-family: Montserrat Alternates;
     font-size: 14.263px;
@@ -25,11 +47,11 @@
     color: var(--Black, #000);
 }
 
-#registration_block > div {
+.create_order>div {
     margin-right: 28px;
 }
 
-#registration_block .postInputForm input {
+.create_order .postInputForm input {
     /* Стили для надписи */
     font-family: Montserrat Alternates;
     font-size: 14.263px;
@@ -62,7 +84,7 @@
     text-decoration: none;
 }
 
-#registration_block .postInputForm select {
+.create_order .postInputForm select {
     /* Стили для надписи */
     font-family: Montserrat Alternates;
     font-size: 14.263px;
@@ -81,7 +103,7 @@
     display: flex;
     flex-basis: auto;
     height: 64.81px;
-    
+
     padding: 19.356px 20.375px;
     width: 380px;
     align-items: center;
@@ -98,16 +120,7 @@
     /* Не разобрался как поставить кастомную стрелочку select_arrow.png */
 }
 
-#registration_block input,select {
-    margin-top: 16px;
-}
-
-#registration_block label {
-    margin-top: 22px;
-}
-
-
-#registration .blackButton {
+.create_order .blackButton {
     /* Стили для надписи */
     color: #FFF;
     font-family: Montserrat Alternates;
@@ -134,54 +147,16 @@
     text-align: center;
 }
 
-#login .blackButton {
-    /* Стили для надписи */
-    color: #FFF;
-    font-family: Montserrat Alternates;
-    font-size: 14.263px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 100%;
-
-    /* Стили самой кнопки */
-    background-color: black;
-    border-radius: 8.15px;
-    border: 2.038px solid var(--Black, #000);
-    background: var(--Black, #000);
-    box-shadow: 6.1125px 6.1125px 0px 0px rgba(0, 0, 0, 0.25);
-
-    padding: 20.375px 36.675px;
+.create_order img {
     
-    width: 55px;
-    margin: 30px auto;
-
     display: block;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    text-align: center;
+    width: 480.362px;
+    
+    margin: 5px auto;
 }
 
-#login .whiteButton {
-    /* Стили для надписи */
-    color: var(--Black, #000);
-    font-family: Montserrat Alternates;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 100%;
-    /* Стили самой кнопки */
-    border-radius: 8px;
-    border: 2px solid var(--Black, #000);
-    background: rgba(255, 255, 255, 0.01);
-    box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.25);
 
-    padding: 20px 36px;
-    width: 128px;
-    margin: 30px auto 0;
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
+input:focus, select:focus{
+  outline:solid  #CD4631;
+  outline-width: 1px;
 }

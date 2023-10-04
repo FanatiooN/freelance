@@ -26,7 +26,7 @@
     color: var(--Davys-Grey, #4D4D4D);
     text-align: center;
     margin-top: 40px;
-    
+
     font-family: Montserrat Alternates;
     font-size: 16px;
     font-style: normal;
@@ -35,7 +35,7 @@
 
 }
 
-.main__descr + .blackButton {
+.main__descr+.blackButton {
     /* Стили для надписи */
     color: #FFF;
     font-family: Montserrat Alternates;
@@ -62,7 +62,7 @@
     text-align: center;
 }
 
-.whiteButton {
+.main__descr+.whiteButton {
     /* Стили для надписи */
     color: var(--Black, #000);
     font-family: Montserrat Alternates;
@@ -85,3 +85,8 @@
     align-items: center;
     text-decoration: none;
 }
+
+
+
+
+

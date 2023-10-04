@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/style/create_order.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="create_order">
+      <h2>
+        Создать новый заказ
+      </h2>
+      <img src="assets\images\registration_line.png">
+
+      <div>
+        <form method="post" class="postInputForm">
+          <label>
+            Название заказа
+            <input  name="" placeholder="Укажите самое главное о заказе">
+          </label>
+        </form>
+
+        <form method="post" class="postInputForm">
+          <label for="services">Вид заказа:</label>
+          <select id="services" name="services">
+            <img src="assets/images/select_arrow.png" alt="" class="logo" style="width:45px; height:42px;">
+
+            <option value="mobile">Мобильные приложения</option>
+            <option value="games">Создание видеоигр</option>
+            <option value="defend">Защита систем от кибератак</option>
+            <option value="html">Верстка сайта</option>
+
+            <option value="model">Создание макета</option>
+            <option value="motion">Motion-дизайн</option>
+            <option value="ux_ui">UX/UI-дизайн</option>
+            <option value="interior">Дизайн интерьера</option>
+          </select>
+
+
+
+        </form>
+
+        <form method="post" class="postInputForm">
+          <label>
+            Описание заказа
+            <input name="order-description"placeholder="Расскажите об заказе подробнее">
+          </label>
+        </form>
+
+        <form method="post" class="postInputForm">
+          <label>
+            Стоимость
+            <input name="order-cost" type="number" min="0" placeholder="Стоимость укажите в рублях">
+          </label>
+        </form>
+
+
+      </div>
+      <a href="" class="blackButton">
+        Подтвердить
+      </a>
+    </div>
+
+  </header>
+</body>
+
+</html>
