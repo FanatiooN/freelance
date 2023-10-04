@@ -62,8 +62,8 @@
     margin: 15px;
     width: 650px;
     color: var(--Black, #000);
-  margin-right: auto;
-  margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .postInputForm input,
@@ -99,5 +99,36 @@ select {
 }
 
 .postInputForm select {
-    appearance: none; /* Не разобрался как поставить кастомную стрелочку select_arrow.png */
+    appearance: none;
+    /* Не разобрался как поставить кастомную стрелочку select_arrow.png */
 }
+
+/* 5 Картинок после кнопки "Начать" */
+.gallery {
+    margin: 70px auto 350px;
+    width: 100%;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.gallery .box {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+
+.gallery .box img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
