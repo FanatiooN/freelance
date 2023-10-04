@@ -1,0 +1,106 @@
+#registration {
+    background: #FFF;
+}
+
+#registration img {
+    display: block;
+    width: 780.362px;
+    
+    margin: 25px auto;
+}
+
+
+#registration .postInputForm {
+    /* Стили для надписи */
+    font-family: Montserrat Alternates;
+    font-size: 14.263px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    width: 347px;
+
+    /* Позиционирование напрямую зависит от width и margin*/
+    margin: 15px auto;
+    color: var(--Black, #000);
+}
+
+#registration > div {
+    margin-right: 28px;
+}
+
+#registration .postInputForm input {
+    /* Стили для надписи */
+    font-family: Montserrat Alternates;
+    font-size: 14.263px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+
+    /* color: var(--Davys-Grey, #4D4D4D);
+    font-family: Montserrat Alternates;
+    font-size: 16.3px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;*/
+
+    /* Стили для самого поля */
+    display: flex;
+    flex-basis: auto;
+    /* max-height: 72px; */
+    padding: 19.356px 20.375px;
+    width: 338px;
+    align-items: center;
+
+    border-radius: 8.15px;
+    border: 1.528px solid var(--Black, #000);
+    /* border: 1.528px solid var(--Vermillion, #CD4631); color when active*/
+
+    background: #FFF;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#registration .postInputForm select {
+    /* Стили для надписи */
+    font-family: Montserrat Alternates;
+    font-size: 14.263px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+
+    /* color: var(--Davys-Grey, #4D4D4D);
+     font-family: Montserrat Alternates;
+     font-size: 16.3px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 160%;*/
+
+    /* Стили для самого поля */
+    display: flex;
+    flex-basis: auto;
+    height: 64.81px;
+    
+    padding: 19.356px 20.375px;
+    width: 380px;
+    align-items: center;
+
+    border-radius: 8.15px;
+    border: 1.528px solid var(--Black, #000);
+    /* border: 1.528px solid var(--Vermillion, #CD4631); color when active*/
+
+    background: #FFF;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    appearance: none;
+    /* Не разобрался как поставить кастомную стрелочку select_arrow.png */
+}
+
+#registration input,select {
+    margin-top: 16px;
+}
+
+#registration label {
+    margin-top: 22px;
+}

@@ -35,3 +35,53 @@
 
 }
 
+.main__descr + .blackButton {
+    /* Стили для надписи */
+    color: #FFF;
+    font-family: Montserrat Alternates;
+    font-size: 14.263px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+
+    /* Стили самой кнопки */
+    background-color: black;
+    border-radius: 8.15px;
+    border: 2.038px solid var(--Black, #000);
+    background: var(--Black, #000);
+    box-shadow: 6.1125px 6.1125px 0px 0px rgba(0, 0, 0, 0.25);
+
+    padding: 20.375px 36.675px;
+    width: 70px;
+    margin: 30px auto 0;
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+}
+
+.whiteButton {
+    /* Стили для надписи */
+    color: var(--Black, #000);
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* Стили самой кнопки */
+    border-radius: 8px;
+    border: 2px solid var(--Black, #000);
+    background: rgba(255, 255, 255, 0.01);
+    box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.25);
+
+    padding: 20px 36px;
+    width: 174px;
+    margin: 30px auto 0;
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

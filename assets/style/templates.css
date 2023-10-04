@@ -1,0 +1,109 @@
+.blackButton {
+    /* Стили для надписи */
+    color: #FFF;
+    font-family: Montserrat Alternates;
+    font-size: 14.263px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+
+    /* Стили самой кнопки */
+    background-color: black;
+    border-radius: 8.15px;
+    border: 2.038px solid var(--Black, #000);
+    background: var(--Black, #000);
+    box-shadow: 6.1125px 6.1125px 0px 0px rgba(0, 0, 0, 0.25);
+
+    padding: 20.375px 36.675px;
+    width: 70px;
+    margin: 30px auto 0;
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+}
+
+.whiteButton {
+    /* Стили для надписи */
+    color: var(--Black, #000);
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* Стили самой кнопки */
+    border-radius: 8px;
+    border: 2px solid var(--Black, #000);
+    background: rgba(255, 255, 255, 0.01);
+    box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.25);
+
+    padding: 20px 36px;
+    width: 174px;
+    margin: 30px auto 0;
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.postInputForm {
+    /* Стили для надписи */
+    font-family: Montserrat Alternates;
+    font-size: 14.263px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+
+    /* Позиционирование напрямую зависит от width и margin*/
+    margin: 15px;
+    width: 650px;
+    color: var(--Black, #000);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.postInputForm input,
+select {
+    /* Стили для надписи */
+    font-family: Montserrat Alternates;
+    font-size: 14.263px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+
+    /* color: var(--Davys-Grey, #4D4D4D);
+    font-family: Montserrat Alternates;
+    font-size: 16.3px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;*/
+
+    /* Стили для самого поля */
+    display: flex;
+    flex-basis: auto;
+    width: 379.994px;
+    max-height: 72px;
+    padding: 19.356px 265.619px 19.844px 20.375px;
+    align-items: center;
+
+    border-radius: 8.15px;
+    border: 1.528px solid var(--Black, #000);
+    /* border: 1.528px solid var(--Vermillion, #CD4631); color when active*/
+
+    background: #FFF;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.postInputForm select {
+    appearance: none;
+    /* Не разобрался как поставить кастомную стрелочку select_arrow.png */
+}
+
+
+
