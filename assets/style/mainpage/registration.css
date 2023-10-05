@@ -124,7 +124,8 @@
     box-shadow: 6.1125px 6.1125px 0px 0px rgba(0, 0, 0, 0.25);
 
     padding: 20.375px 36.675px;
-    width: 174px;
+    width: auto;
+    max-width: 250px;
     margin: 30px auto;
 
     display: block;
@@ -158,7 +159,8 @@
 
     padding: 20.375px 36.675px;
     
-    width: 55px;
+    width: auto;
+    max-width: 250px;
     margin: 30px auto;
 
     display: block;

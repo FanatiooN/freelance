@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- JS
     <script type="text/javascript" src="jquery-3.3.1.js"></script> -->
-    <script defer type="text/javascript" src="sendRegistration.js"></script>
-    
+    <script defer type="text/javascript" src="script/login.js"></script>
+    <script defer type="text/javascript" src="script/register.js"></script>
+
     <!-- CSS -->
     <link rel="stylesheet" href="assets/style/style.css">
     <link rel="stylesheet" href="assets/style/header.css">
@@ -140,7 +141,7 @@
                     <div>
                         <form action="main.py" method="post" class="postInputForm">
                             <label for="services">Выберите роль:</label>
-                            <select id="registrationServices" name="services">
+                            <select id="loginServices" name="services">
                                 <img src="assets/images/select_arrow.png" alt="" class="logo"
                                     style="width:45px; height:42px;">
 
@@ -149,17 +150,19 @@
                             </select>
                             <label>
                                 Почта
-                                <input name="email" autocomplete="email" placeholder="example@example.com">
+                                <input id="loginEmail" name="email" autocomplete="email"
+                                    placeholder="example@example.com">
                             </label>
                             <label>
                                 Пароль
-                                <input type="password" autocomplete="new-password" placeholder="Введите пароль">
+                                <input id="loginPassword" name="password" type="password" autocomplete="new-password"
+                                    placeholder="Введите пароль">
                             </label>
                         </form>
                     </div>
 
-                    <a href="" class="blackButton">Вход</a>
-                    <a href="" class="whiteButton">
+                    <button class="blackButton" onclick="login()" id="loginButton">Вход</button>
+                    <a href="#registration" class="whiteButton">
                         <p>Нет аккаунта?</p>
                     </a>
 
@@ -173,7 +176,7 @@
                     <div>
                         <form action="main.py" method="post" class="postInputForm">
                             <label for="services">Выберите роль:</label>
-                            <select id="services" name="services">
+                            <select id="registrationServices" name="services">
                                 <img src="assets/images/select_arrow.png" alt="" class="logo"
                                     style="width:45px; height:42px;">
 
@@ -182,19 +185,22 @@
                             </select>
                             <div> <label>
                                     Фамилия Имя
-                                    <input id="registrationName" name="name" autocomplete="name" placeholder="Иванов Иван">
+                                    <input id="registrationName" name="name" autocomplete="name"
+                                        placeholder="Иванов Иван">
                                 </label></div>
                             <label>
                                 Почта
-                                <input id="registrationEmail" name="email" autocomplete="email" placeholder="example@example.com">
+                                <input id="registrationEmail" name="email" autocomplete="email"
+                                    placeholder="example@example.com">
                             </label>
                             <label>
                                 Пароль
-                                <input id="registrationPassword" type="password" autocomplete="new-password" placeholder="Введите пароль">
+                                <input id="registrationPassword" type="password" autocomplete="new-password"
+                                    placeholder="Введите пароль">
                             </label>
                         </form>
-                        <button id="registrationButton">registration</button>
-                        <button style="display:block; width 200px; height: 70px;" href="" class="blackButton" id="registrationButton">Зарегистрироваться</button>
+                        <button class="blackButton" onclick="register()"
+                            id="registrationButton">Зарегистрироваться</button>
                     </div>
 
                     <a target="_blank" href="window.html" class="blackButton">СОЗДАТЬ ЗАКАЗ</a>
