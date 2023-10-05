@@ -4,10 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- JS
+    <script type="text/javascript" src="jquery-3.3.1.js"></script> -->
+    <script defer type="text/javascript" src="sendRegistration.js"></script>
+    
     <!-- CSS -->
     <link rel="stylesheet" href="assets/style/style.css">
     <link rel="stylesheet" href="assets/style/header.css">
-    <link rel="stylesheet" href="assets/style/buttons.css">
+
     <link rel="stylesheet" href="assets/style/mainpage/services.css">
     <link rel="stylesheet" href="assets/style/mainpage/gallery.css">
     <link rel="stylesheet" href="assets/style/mainpage/registration.css">
@@ -133,14 +138,14 @@
                     <img src="assets\images\registration_line.png">
 
                     <div>
-                        <form method="post" class="postInputForm">
+                        <form action="main.py" method="post" class="postInputForm">
                             <label for="services">Выберите роль:</label>
-                            <select id="services" name="services">
+                            <select id="registrationServices" name="services">
                                 <img src="assets/images/select_arrow.png" alt="" class="logo"
                                     style="width:45px; height:42px;">
 
-                                <option value="mobile">Исполнитель</option>
-                                <option value="games">Заказчик</option>
+                                <option value="employee">Исполнитель</option>
+                                <option value="employer">Заказчик</option>
                             </select>
                             <label>
                                 Почта
@@ -157,6 +162,7 @@
                     <a href="" class="whiteButton">
                         <p>Нет аккаунта?</p>
                     </a>
+
                 </div>
 
 
@@ -165,39 +171,38 @@
                     <img src="assets\images\registration_line.png">
 
                     <div>
-                        <form method="post" class="postInputForm">
+                        <form action="main.py" method="post" class="postInputForm">
                             <label for="services">Выберите роль:</label>
                             <select id="services" name="services">
                                 <img src="assets/images/select_arrow.png" alt="" class="logo"
                                     style="width:45px; height:42px;">
 
-                                <option value="mobile">Исполнитель</option>
-                                <option value="games">Заказчик</option>
+                                <option value="employee">Исполнитель</option>
+                                <option value="employer">Заказчик</option>
                             </select>
                             <div> <label>
                                     Фамилия Имя
-                                    <input name="name" autocomplete="name" placeholder="Иванов Иван">
+                                    <input id="registrationName" name="name" autocomplete="name" placeholder="Иванов Иван">
                                 </label></div>
                             <label>
                                 Почта
-                                <input name="email" autocomplete="email" placeholder="example@example.com">
+                                <input id="registrationEmail" name="email" autocomplete="email" placeholder="example@example.com">
                             </label>
                             <label>
                                 Пароль
-                                <input type="password" autocomplete="new-password" placeholder="Введите пароль">
+                                <input id="registrationPassword" type="password" autocomplete="new-password" placeholder="Введите пароль">
                             </label>
                         </form>
-                        <a href="" class="blackButton">Зарегистрироваться</a>
+                        <button id="registrationButton">registration</button>
+                        <button style="display:block; width 200px; height: 70px;" href="" class="blackButton" id="registrationButton">Зарегистрироваться</button>
                     </div>
 
                     <a target="_blank" href="window.html" class="blackButton">СОЗДАТЬ ЗАКАЗ</a>
-                    <a target="_blank" href="profile.html" class="blackButton">ПРОФИЛЬ</a>
+                    <a target="_blank" href="employee_profile.html" class="blackButton">ПРОФИЛЬ И</a>
+                    <a target="_blank" href="employer_profile.html" class="blackButton">ПРОФИЛЬ З</a>
                 </div>
             </div>
         </div>
-
-
-
     </main>
 </body>
 
