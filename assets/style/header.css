@@ -4,6 +4,15 @@ header {
     margin: 0 auto;
 }
 
+
+.profile_photo_header img{
+    width: 43px;
+    height: 43px;
+
+    border-radius: 5px;
+    border: solid #000 2px;
+    margin-top: 6px;
+}
 header a {
     text-decoration: none;
 }
@@ -30,8 +39,6 @@ header nav a {
     /* margin-top: 27px; */
     display: flex;
 }
-
-
 
 
 
