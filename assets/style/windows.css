@@ -182,8 +182,8 @@ select:focus {
     border: 0.848px solid var(--Black, #000);
     background: #F7EDE8;
     margin: 5px auto 0px;
-    width: 438px;
-    height: 78px;
+    width: 500px;
+    height: 80px;
     flex-shrink: 0;
 }
 
@@ -234,8 +234,8 @@ select:focus {
 
 .notification-title img {
     margin-top: 16px;
-    width: 15.621px;
-    height: 15.621px;
+    width: 15;
+    height: 15px;
     flex-shrink: 0;
 
 }
@@ -243,20 +243,24 @@ select:focus {
 .starbox>p {
 
 
-    color: var(--Black, #000);
-    text-align: center;
+    color: var(--Black, #ff0000);
     font-family: Montserrat Alternates;
     font-size: 18.039px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 50;
     line-height: 160%;
 
-    margin: 10px 0;
 }
 
 .starbox {
     display: flex;
+    
 }
+
+.starbox > img {
+    width: 20px;
+    height: 15px
+    }
 
 .notification>p {
 
@@ -270,6 +274,7 @@ select:focus {
     width: 400px;
     height: 33px;
 
-    margin: 5px auto auto;
+    
+    margin: auto auto auto auto;
 
 }
