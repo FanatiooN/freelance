@@ -1,8 +1,8 @@
 async function login() {
 
-    const service = document.getElementById("registrationServices").value;
-    const email = document.getElementById("registrationEmail").value;
-    const password = document.getElementById("registrationPassword").value;
+    const service = document.getElementById("loginServices").value;
+    const email = document.getElementById("loginEmail").value;
+    const password = document.getElementById("loginPassword").value;
 
     const response = await fetch("/main.py", {
         method: "POST",
