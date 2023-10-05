@@ -135,12 +135,6 @@
     text-align: center;
 }
 
-
-.blackButton:active {
-    border: solid wheat 100px;
-  }
-
-
 #login .blackButton {
     /* Стили для надписи */
     color: #FFF;
