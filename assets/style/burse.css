@@ -1,0 +1,29 @@
+.tags{
+    display: flex;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 17.395px;
+
+    
+    border-radius: 6.958px;
+    border: 1.74px solid var(--Davys-Grey, #4D4D4D);
+
+    margin: 0px auto 0px auto 
+}
+
+.second{
+    margin: 15px
+}
+
+.not_main_title{
+    color: var(--Davys-Grey, #000000);
+    text-align: center;
+    margin-top: 40px;
+
+    font-family: Montserrat Alternates;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
